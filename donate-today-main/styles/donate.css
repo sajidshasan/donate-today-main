@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+/* header section */
+.header-container {
+
+    align-items: center;
+    text-align: center;
+    padding: 175px 507px;
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {}
+
+.header-title {
+    padding-top: 174px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-description {
+    color: rgb(236, 236, 234);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background: orangered;
+    border-radius: 5px;
+    border: 0ch;
+    padding: 18px 36px;
+}
+
+/* donate amount */
+.donate-amount {
+    margin: 0 500px;
+}
+
+.donate-amount .amount-items {
+
+    align-items: center;
+    text-align: center;
+}
+
+.amounts {
+    list-style-type: none;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 42px;
+    padding: 45px 25px;
+    align-items: center;
+    text-align: center;
+    margin-left: 137px;
+    margin-right: 135px;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section-title {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-amount-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #3d3737;
+}
+
+.number {
+    border: 0px;
+    border-radius: 0%;
+}
+
+.hrline {
+    width: 100%;
+    margin-bottom: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+input {
+    font-family: 'Poppins';
+    font-style: normal;
+    border-style: hidden;
+    font-size: 20px;
+    text-align: center;
+}
