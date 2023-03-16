@@ -39,6 +39,7 @@
     border-radius: 5px;
     border: 0ch;
     padding: 18px 36px;
+    margin-left: 0;
 }
 
 /* donate amount */
@@ -72,6 +73,7 @@
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 45px;
+    text-align: center;
 }
 
 .donate-amount-description {
@@ -100,4 +102,120 @@ input {
     border-style: hidden;
     font-size: 20px;
     text-align: center;
+}
+
+/* donate plan */
+.donate-plan {
+    align-items: center;
+    margin-bottom: 130px;
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+.food-family {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.food-section {
+    display: flex;
+    gap: 25px;
+}
+
+.donate-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #3d3737;
+
+    align-items: center;
+    margin: 20px 350px 50px;
+}
+
+.first-plan {
+    background-color: rgb(227, 244, 255);
+    padding: 30px 20px;
+}
+
+.second-plan {
+    background-color: rgb(240, 226, 228);
+    padding: 30px 20px;
+}
+
+.third-plan {
+    background-color: lightyellow;
+    padding: 30px 20px;
+}
+
+/* need-donation */
+.need-donation {
+    align-items: center;
+    gap: 80px;
+    display: flex;
+    margin-left: 157px;
+    margin-right: 252px;
+}
+
+.contribute {
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background: orangered;
+    border-radius: 5px;
+    border: 0ch;
+    padding: 18px 36px;
+}
+
+.donation-description {
+    padding: 20px;
+}
+
+.donation-needed {
+    gap: 80px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 157px;
+    margin-right: 252px;
+    align-items: center;
+}
+
+/* updates */
+.formation {
+    margin: 0 280px 230px;
+    padding: 76px 180px;
+    align-items: center;
+    gap: 0;
+    background-color: bisque;
+    height: 80px;
+}
+
+.updates {
+    align-items: center;
+    text-align: center;
+}
+
+#email {
+    background-color: rgb(204, 198, 198);
+    height: 64px;
+    margin-right: 0;
+}
+
+/* footer */
+.footer-title {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-size: 36px;
+    color: #FF5959;
+
+}
+.footer-container{
+    gap: 20px;
+    padding: 40px 0;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.footer-para{
+    color: #D9DBE1;
 }
