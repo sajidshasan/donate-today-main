@@ -209,6 +209,7 @@ input {
     color: #FF5959;
 
 }
+
 .footer-container{
     gap: 20px;
     padding: 40px 0;
@@ -216,6 +217,7 @@ input {
     text-align: center;
     background-color: black;
 }
+
 .footer-para{
     color: #D9DBE1;
 }
