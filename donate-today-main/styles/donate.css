@@ -13,8 +13,6 @@
     background-size: cover;
 }
 
-.banner {}
-
 .header-title {
     padding-top: 174px;
     color: aliceblue;
@@ -210,7 +208,7 @@ input {
 
 }
 
-.footer-container{
+.footer-container {
     gap: 20px;
     padding: 40px 0;
     align-items: center;
@@ -218,6 +216,6 @@ input {
     background-color: black;
 }
 
-.footer-para{
+.footer-para {
     color: #D9DBE1;
 }
